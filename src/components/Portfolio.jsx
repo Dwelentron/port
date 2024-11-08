@@ -46,7 +46,7 @@ export default function Portfolio () {
           <div className="relative">
             <div className="absolute mx-auto inset-1 bg-purple-600 rounded-full transform translate-x-5 translate-y-1 h-[400px] w-[400px]" />
             <img
-              src="/images/esa1.jpg"
+              src="/images/esa2.jpg"
               alt="Profile"
               className="relative rounded-full object-cover mx-auto h-[400px] w-[400px]  "
             />
