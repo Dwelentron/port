@@ -13,9 +13,9 @@ export default function Portfolio () {
     { name: "React", progress: 85 },
   ]
   const projectImages = [
-    "/esa.5.png",
-    "/esa3.png",
-    "/imgann.jpg",
+    "/images/esa.5.png",
+    "/images/esa3.png",
+    "/images/imgann.jpg",
   ];
 
   return (
@@ -46,7 +46,7 @@ export default function Portfolio () {
           <div className="relative">
             <div className="absolute mx-auto inset-1 bg-purple-600 rounded-full transform translate-x-5 translate-y-1 h-[400px] w-[400px]" />
             <img
-              src="/esa1.jpg"
+              src="/images/esa1.jpg"
               alt="Profile"
               className="relative rounded-full object-cover mx-auto h-[400px] w-[400px]  "
             />
@@ -57,7 +57,7 @@ export default function Portfolio () {
         <section className="max-w-6xl mx-auto px-4 py-12">
           <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <img src="/esa2.jpg?" alt="About" className="rounded-lg object-cover mx-auto shadow-lg h-[400px] w-[400px]" />
+            <img src="/images/esa2.jpg" alt="About" className="rounded-lg object-cover mx-auto shadow-lg h-[400px] w-[400px]" />
             <div>
               <p className="text-gray-600 mb-8">
                 As a first-year Statistics student at JKUAT, I&apos;m passionate about using
