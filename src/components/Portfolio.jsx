@@ -13,9 +13,9 @@ export default function Portfolio () {
     { name: "React", progress: 85 },
   ]
   const projectImages = [
-    "/images/esa.5.png",
-    "/images/esa3.png",
-    "/images/imgann.jpg",
+    "https://www.codewithc.com/wp-content/uploads/2015/03/statistics-reporter.jpg",
+    "https://media.cheggcdn.com/media%2Fd1e%2Fd1e8e0ca-3405-4b4b-83ad-6c57595e94be%2Fimage",
+    "https://media.cheggcdn.com/study/81c/81c9a9a2-333e-435f-82c2-3f38fc002c5c/image",
   ];
 
   return (
@@ -24,7 +24,6 @@ export default function Portfolio () {
       <header className="fixed top-0 w-full bg-white/80 backdrop-blur-sm z-50">
         <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <span className="text-3xl font-bold">Ann</span>
-          
         </nav>
       </header>
 
@@ -44,9 +43,9 @@ export default function Portfolio () {
             </button>
           </div>
           <div className="relative">
-            <div className="absolute mx-auto inset-1 bg-purple-600 rounded-full transform translate-x-5 translate-y-1 h-[400px] w-[400px]" />
+            <div className="absolute mx-auto inset-1 bg-purple-600 rounded-full transform translate-x-7 translate-y-1 h-[400px] w-[400px]" />
             <img
-              src="/images/esa2.jpg"
+              src="https://jamoroki.com/wp-content/uploads/2022/08/human-relationship-with-nature-is-vital-1024x683.jpg"
               alt="Profile"
               className="relative rounded-full object-cover mx-auto h-[400px] w-[400px]  "
             />
@@ -57,7 +56,7 @@ export default function Portfolio () {
         <section className="max-w-6xl mx-auto px-4 py-12">
           <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <img src="/images/esa2.jpg" alt="About" className="rounded-lg object-cover mx-auto shadow-lg h-[400px] w-[400px]" />
+            <img src="https://images.squarespace-cdn.com/content/v1/56fb71aa356fb03913abba97/1555649611145-RCKUFUVJT05MEC6W9RF0/Helen-8.jpg" alt="About" className="rounded-lg object-cover mx-auto shadow-lg h-[400px] w-[400px]" />
             <div>
               <p className="text-gray-600 mb-8">
                 As a first-year Statistics student at JKUAT, I&apos;m passionate about using
@@ -121,7 +120,7 @@ export default function Portfolio () {
                 src={projectImages[index]}
                 alt={`Project ${project}`}
                 className="rounded-lg mb-4 object-cover"
-                style={{ width: '500px', height: '300px' }}
+                style={{ width: '400px', height: '300px' }}
                 />
                 <h3 className="text-xl font-semibold mb-2">Statistical Analysis Project {project}</h3>
                 <p className="text-gray-600">
